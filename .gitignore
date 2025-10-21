@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Data files ---
+data/
+datasets/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.h5
+*.mat
+*.npz
+*.npy
+
+# --- Virtual environments ---
+.venv/
+env/
+venv/
+
+# --- OS / Editor files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
