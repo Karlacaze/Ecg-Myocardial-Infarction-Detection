@@ -8,22 +8,21 @@ __pycache__/
 # --- Jupyter ---
 .ipynb_checkpoints/
 
-# --- Data files ---
+# --- Data files (large ECG datasets, signals, etc.) ---
 data/
 datasets/
 *.csv
-*.tsv
-*.xls
-*.xlsx
-*.zip
-*.rar
-*.7z
-*.tar
-*.gz
-*.h5
+*.dat
 *.mat
+*.h5
 *.npz
 *.npy
+*.zip
+*.tar
+*.gz
+*.edf
+*.hea
+*.xyz
 
 # --- Virtual environments ---
 .venv/
