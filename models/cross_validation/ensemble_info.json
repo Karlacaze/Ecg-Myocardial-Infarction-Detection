@@ -1,0 +1,59 @@
+{
+  "n_splits": 5,
+  "model_files": [
+    "models/cross_validation\\best_model_fold_1.keras",
+    "models/cross_validation\\best_model_fold_2.keras",
+    "models/cross_validation\\best_model_fold_3.keras",
+    "models/cross_validation\\best_model_fold_4.keras",
+    "models/cross_validation\\best_model_fold_5.keras"
+  ],
+  "test_metrics": {
+    "accuracy": 0.912621359223301,
+    "precision": 0.9452054794520548,
+    "recall": 0.9324324324324325,
+    "f1": 0.9387755102040817,
+    "auc": 0.9673811742777261,
+    "specificity": 0.8620689655172413
+  },
+  "avg_cv_metrics": {
+    "accuracy": {
+      "mean": 0.7842818428184282,
+      "std": 0.09333165191309421
+    },
+    "precision": {
+      "mean": 0.8746790757381258,
+      "std": 0.03628851596145622
+    },
+    "recall": {
+      "mean": 0.8165400350672121,
+      "std": 0.12406372398034118
+    },
+    "f1": {
+      "mean": 0.8403746907034287,
+      "std": 0.08065339964114844
+    },
+    "auc": {
+      "mean": 0.8271144859003472,
+      "std": 0.06434276303565378
+    },
+    "specificity": {
+      "mean": 0.7003952569169961,
+      "std": 0.09500647707556437
+    }
+  },
+  "input_shape": [
+    5000,
+    15
+  ],
+  "model_type": "binary_classification",
+  "classes": [
+    "No-MI",
+    "MI"
+  ],
+  "total_samples": 511,
+  "test_size": 0.2,
+  "random_state": 42,
+  "batch_size": 32,
+  "epochs": 100,
+  "initial_lr": 0.001
+}

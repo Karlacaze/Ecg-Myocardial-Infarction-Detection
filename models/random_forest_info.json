@@ -1,0 +1,41 @@
+{
+  "model_type": "RandomForestClassifier",
+  "n_estimators": 200,
+  "max_depth": 5,
+  "n_features": 7,
+  "n_classes": 5,
+  "class_names": [
+    "Bundle branch block",
+    "Cardiomyopathy/Heart failure",
+    "Dysrhythmia",
+    "Healthy controls",
+    "Myocardial infarction"
+  ],
+  "feature_names": [
+    "n_samples",
+    "n_leads",
+    "fs",
+    "age",
+    "sex",
+    "additional_diagnoses",
+    "smoker"
+  ],
+  "leakage_variables_removed": [
+    "is_MI",
+    "reason_for_admission",
+    "acute_infarction_localization",
+    "former_infarction_localization"
+  ],
+  "metrics": {
+    "accuracy": 0.8829787234042553,
+    "precision_macro": 0.3607142857142857,
+    "recall_macro": 0.37333333333333335,
+    "f1_macro": 0.3659770114942529,
+    "precision_weighted": 0.7997720364741642,
+    "recall_weighted": 0.8829787234042553,
+    "f1_weighted": 0.8381022254830032
+  },
+  "model_path": "models\\random_forest_model.pkl",
+  "scaler_path": null,
+  "data_leakage_fixed": true
+}
