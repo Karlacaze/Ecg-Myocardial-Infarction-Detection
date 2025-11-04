@@ -136,4 +136,3 @@ Metrics: Confusion matrix and per-class classification report
 Classes: 3 cardiac conditions
 
 Architecture: ResNet base with modified output layer
-For questions or collaboration opportunities, please open an issue.
