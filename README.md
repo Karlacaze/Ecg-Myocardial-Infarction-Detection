@@ -188,9 +188,6 @@ If you use this code or dataset, please cite:
 
 ---
 
-## Authors
-
-**Karla** – ECG Analysis and Deep Learning Implementation  
 
 ---
 
@@ -199,7 +196,3 @@ If you use this code or dataset, please cite:
 This project is available for **academic and research purposes**.
 
 ---
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome.  
