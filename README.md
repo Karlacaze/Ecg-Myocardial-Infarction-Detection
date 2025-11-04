@@ -26,6 +26,11 @@ This repository presents **three complementary approaches** to ECG signal analys
 It covers everything from **data exploration** to **deep learning model development**, forming a complete pipeline for cardiac condition detection.
 
 ---
+## Database
+
+https://physionet.org/content/ptbdb/1.0.0/
+
+---
 
 ## Project Structure
 
